@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<fstream>
+
+int main(){
+	std::string espacio_ordenador_fichero = "hola.txt";
+	printf("\nFichero espacio del ordenador: %d",espacio_ordenador_fichero);
+	
+	return(0);
+}
